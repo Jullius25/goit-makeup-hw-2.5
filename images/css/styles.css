@@ -1,0 +1,174 @@
+:root {
+    --color-primario: #ffffff;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.fuente-bold {
+    font-weight: bold;
+}
+
+.enlaces-aside {
+    color: var(--color-primario);
+}
+
+.enlaces-aside:hover {
+    color: red;
+}
+
+.enlaces-nav {
+    color: white;
+    cursor: crosshair;
+}
+
+.enlaces-nav:hover {
+    color: orangered;
+}
+
+#main-content {
+    background: #2F303A;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #2F303A;
+    /* Pie de página bg */
+
+}
+
+button {
+    background-color: var(--color-primario);
+}
+
+button:active {
+    background-color: #2196F3;
+    color: rgb(255, 255, 255);
+}
+
+main>p {
+    background-color: rgba(28, 30, 105, 50);
+}
+
+.enlaces-aside {
+
+    color: #2196F3
+}
+
+.enlaces-nav {
+
+    color: rgb(196, 194, 194);
+    font-weight: bold;
+}
+
+main>p {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 516px;
+    top: 1703px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+#main-content {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-contenido {
+    /* Estudio Web */
+
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+}
+
+#main-con {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.social-bar {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background: #006dc6;
+    border-radius: 1rem 0 0 0;
+}
+
+.icon-instagram {
+    background: rgb(239, 151, 151);
+}
+
+.icon-twitter {
+    background: #65b4f5;
+}
+
+.icon-linkedin {
+    background: #f8f83a;
+    border-radius: 1rem 0 0 0;
+
+}
+
+
+.estudio &nbsp;
+
+    {
+    display: inline;
+    margin-right: 100px;
+}
+
+.portafolio &nbsp;
+
+    {
+    display: inline;
+    margin-right: 100px;
+}
+
+.contactos &nbsp;
+
+    {
+    display: inline;
+    margin-right: 100px;
+}
+
+.todo &nbsp;
+
+    {
+    display: inline;
+    margin-right: 100px;
+}
